@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Ejercicio Bootsrap</title>
+</head>
+<body class="m-2">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Codo a Codo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Desactivado</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="card-group">
+                <div class="card">
+                <img src="./assets/html.jpg" class="card-img-top w-100 h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título 1</h5>
+                    <p class="card-text">Contenido de card</p>
+                    <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="./assets/css.png" class="card-img-top w-100 h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título 2</h5>
+                    <p class="card-text">Contenido de card</p>
+                    <p class="card-text"><small class="text-muted">Última actualización 2</small></p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="./assets/bootstrap.png" class="card-img-top w-100 h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título 3</h5>
+                    <p class="card-text">Contenido de card</p>
+                    <p class="card-text"><small class="text-muted">Última actualización 3</small></p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <form class="row g-3 mt-1" action="">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                    <p class="text-secondary">Nunca comparta su email</p>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-check m-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                    Verificar
+                    </label>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+ <script src="./js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>
